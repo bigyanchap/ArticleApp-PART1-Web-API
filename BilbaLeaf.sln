@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{23D788E0-AE0E-40E8-8C89-C46E97FB7B71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcClient", "MvcClient\MvcClient.csproj", "{3850214C-9882-4BE8-BB09-13C8223CE6AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilbaLeaf.Api", "BilbaLeaf\BilbaLeaf.Api.csproj", "{29E43F74-8DCA-425F-B8D2-2E8019131E9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilbaLeaf.DTO", "BilbaLeaf.DTO\BilbaLeaf.DTO.csproj", "{0460A77A-3E50-4AE1-AE91-909C63616584}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilbaLeaf.Entities", "BilbaLeaf.Entities\BilbaLeaf.Entities.csproj", "{830E0B37-4E54-4D84-9FF5-90A5EC92F9B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilbaLeaf.Repository", "BilbaLeaf.Repository\BilbaLeaf.Repository.csproj", "{F488FCFC-811B-4F89-A03C-E52D8ABB5870}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilbaLeaf.Service", "BilbaLeaf.Service\BilbaLeaf.Service.csproj", "{10024AAB-F3C0-4E22-86EB-AF1FBB0F5C2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23D788E0-AE0E-40E8-8C89-C46E97FB7B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D788E0-AE0E-40E8-8C89-C46E97FB7B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D788E0-AE0E-40E8-8C89-C46E97FB7B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D788E0-AE0E-40E8-8C89-C46E97FB7B71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3850214C-9882-4BE8-BB09-13C8223CE6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3850214C-9882-4BE8-BB09-13C8223CE6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3850214C-9882-4BE8-BB09-13C8223CE6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3850214C-9882-4BE8-BB09-13C8223CE6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E43F74-8DCA-425F-B8D2-2E8019131E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E43F74-8DCA-425F-B8D2-2E8019131E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E43F74-8DCA-425F-B8D2-2E8019131E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E43F74-8DCA-425F-B8D2-2E8019131E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0460A77A-3E50-4AE1-AE91-909C63616584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0460A77A-3E50-4AE1-AE91-909C63616584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0460A77A-3E50-4AE1-AE91-909C63616584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0460A77A-3E50-4AE1-AE91-909C63616584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830E0B37-4E54-4D84-9FF5-90A5EC92F9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830E0B37-4E54-4D84-9FF5-90A5EC92F9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830E0B37-4E54-4D84-9FF5-90A5EC92F9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830E0B37-4E54-4D84-9FF5-90A5EC92F9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F488FCFC-811B-4F89-A03C-E52D8ABB5870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F488FCFC-811B-4F89-A03C-E52D8ABB5870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F488FCFC-811B-4F89-A03C-E52D8ABB5870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F488FCFC-811B-4F89-A03C-E52D8ABB5870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10024AAB-F3C0-4E22-86EB-AF1FBB0F5C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10024AAB-F3C0-4E22-86EB-AF1FBB0F5C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10024AAB-F3C0-4E22-86EB-AF1FBB0F5C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10024AAB-F3C0-4E22-86EB-AF1FBB0F5C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84BCCCD9-D94C-4DFE-A888-EFD5B4060BA7}
+	EndGlobalSection
+EndGlobal

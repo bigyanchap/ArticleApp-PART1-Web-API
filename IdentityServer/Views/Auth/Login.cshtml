@@ -1,0 +1,22 @@
+﻿@model Sample.IdentityServer.Controller.LoginViewModel
+
+@addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers"
+<form asp-controller="Auth" asp-Action="Login" method="post">
+    <input type="hidden" asp-for="ReturnUrl" />
+    <div>
+        <label>Username</label>
+        <input asp-for="Username" />
+    </div>
+
+    <div>
+        <label>Password</label>
+        <input asp-for="Password" />
+
+    </div>
+    <div>
+        <button type="submit">Sign In</button>
+    </div>
+
+</form>
+
+
